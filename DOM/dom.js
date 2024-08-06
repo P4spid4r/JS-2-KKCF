@@ -32,3 +32,27 @@ document.querySelector()
 // 12. Select the body element and use style.cssText to change the text color and background color
 
 //13. Change src attribute of the image 
+
+
+// declare function
+// function sayHello(){
+//     alert("Hello world!")
+// }
+// sayHello();
+
+// //paremeters 
+// function add2numbs(a, b){
+//  alert(a, b)
+// }
+// add2numbs(2, 3)
+
+//select the button element
+let myButton = document.querySelector("button")
+
+//declared event handler  function
+function handleClick(){
+    alert('button was clicked')
+    console.log("button was cliacked")
+}
+
+myButton.addEventListener('click', handleClick)
